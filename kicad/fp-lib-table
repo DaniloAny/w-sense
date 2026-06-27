@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "RF-antennas") (type "KiCad") (uri "${KIPRJMOD}/RF-antennas.pretty") (options "") (descr ""))
+	(lib (name "w-sense") (type "KiCad") (uri "${KIPRJMOD}/w-sense.pretty") (options "") (descr ""))
+)
