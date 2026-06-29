@@ -3805,12 +3805,6 @@
 		(uuid "1540ecd9-8f2e-499c-abe6-b73585c66238")
 	)
 	(junction
-		(at 76.2 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17b2932b-52df-4a3e-a43d-36ce79427a4b")
-	)
-	(junction
 		(at 163.83 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3827,6 +3821,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "352b6f9b-0b9f-4be8-8dc0-b0d17fd881a7")
+	)
+	(junction
+		(at 76.2 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "388b56ff-2c79-408f-8800-0784ae197c3a")
 	)
 	(junction
 		(at 58.42 176.53)
@@ -3857,6 +3857,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9366de8d-5282-410a-b2a1-dab8354b13ca")
+	)
+	(junction
+		(at 76.2 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7acc17e-f1ad-44c6-a892-0669de49c9f6")
 	)
 	(junction
 		(at 128.27 124.46)
@@ -4221,6 +4227,16 @@
 			(type default)
 		)
 		(uuid "86357930-2883-48e7-a6ae-2829df94ff3e")
+	)
+	(wire
+		(pts
+			(xy 76.2 158.75) (xy 80.01 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "893ff4a6-e3a0-4c48-9f8f-37182fb13084")
 	)
 	(wire
 		(pts
@@ -4855,6 +4871,84 @@
 			(project "w-sense"
 				(path "/8d1f45d7-5a40-43aa-9873-7a5a68ce6cbb"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 80.01 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14b913b6-0acb-4cff-8c08-02396385e177")
+		(property "Reference" "#PWR09"
+			(at 80.01 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 80.01 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 80.01 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38b93682-45b2-4b56-8726-46312cee35fa")
+		)
+		(instances
+			(project "w-sense"
+				(path "/8d1f45d7-5a40-43aa-9873-7a5a68ce6cbb"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8706,7 +8800,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "10K"
 			(at 85.344 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
